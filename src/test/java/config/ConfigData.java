@@ -5,7 +5,8 @@ import org.aeonbits.owner.Config;
 import static com.codeborne.selenide.Browsers.CHROME;
 
 @Config.Sources({
-        "classpath:${env}.properties"
+        "classpath:${env}.properties",
+        "classpath:webdriver.properties"
 })
 public interface ConfigData extends Config {
 
